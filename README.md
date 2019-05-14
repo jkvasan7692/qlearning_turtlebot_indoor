@@ -1,4 +1,4 @@
-# Dots and Boxes using Q Learning
+# Autonomous Navigation using Reinforcement Learning for Indoor Environment
 
 This project describes autonmous navigation using q learning for indoor environment divided into 10x10 grid. Further the simulation is performed on turtlebot in gazebo ROS
 
@@ -21,7 +21,7 @@ git clone https://github.com/jkvasan7692/qlearning_turtlebot_indoor.git
 
 ### Compilation
 
-Go to the codes folder and execute the following command:
+Go to the codes folder and execute the following command: \\
 catkin build
 
 ### Directory and Files
