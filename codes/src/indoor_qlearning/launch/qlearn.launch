@@ -1,0 +1,14 @@
+<launch>
+
+  <include file="$(find turtlebot_gazebo)/launch/turtlebot_world.launch">
+      <arg name="world_file" value="$(find indoor_qlearning)/launch/brick_crib.world"/>
+  </include>
+
+  <node
+      pkg="indoor_qlearning"
+      name="qLearner"
+      type="mainCode2.py"
+      output="screen"
+  />
+
+</launch>

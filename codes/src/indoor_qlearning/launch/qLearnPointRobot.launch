@@ -1,0 +1,10 @@
+<launch>
+
+  <node
+      pkg="indoor_qlearning"
+      name="qLearner"
+      type="mainCode.py"
+      output="screen"
+  />
+
+</launch>
